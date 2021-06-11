@@ -31,8 +31,8 @@ function App() {
           <div className="card-body">
             <div className="card-title">Centro-Oeste</div>
             <hr className="card-divisor"></hr>
-            <img id="pop" src={Population}></img> <h6>{regioes.somaCentro}</h6>
-            <img id="country" src={Country}></img> <h6>{regioes.lengthCentro}</h6>
+            <img id="pop" src={Population}></img> <h6>{regioes?.somaCentro}</h6>
+            <img id="country" src={Country}></img> <h6>{regioes?.lengthCentro}</h6>
           </div>
         </div>
 
@@ -40,8 +40,8 @@ function App() {
           <div className="card-body">
             <div className="card-title">Nordeste</div>
             <hr class="card-divisor"></hr>
-            <img id="pop" src={Population}></img> <h6>{regioes.somaNordeste}</h6>
-            <img id="country" src={Country}></img> <h6>{regioes.lengthNordeste}</h6>
+            <img id="pop" src={Population}></img> <h6>{regioes?.somaNordeste}</h6>
+            <img id="country" src={Country}></img> <h6>{regioes?.lengthNordeste}</h6>
           </div>
         </div>
 
@@ -49,8 +49,8 @@ function App() {
           <div className="card-body">
             <div className="card-title">Norte</div>
             <hr className="card-divisor"></hr>
-            <img id="pop" src={Population}></img> <h6>{regioes.somaNorte}</h6>
-            <img id="country" src={Country}></img> <h6>{regioes.lengthNorte}</h6>
+            <img id="pop" src={Population}></img> <h6>{regioes?.somaNorte}</h6>
+            <img id="country" src={Country}></img> <h6>{regioes?.lengthNorte}</h6>
           </div>
         </div>
 
@@ -58,8 +58,8 @@ function App() {
           <div className="card-body">
             <div className="card-title">Sudeste</div>
             <hr className="card-divisor"></hr>
-            <img id="pop" src={Population}></img> <h6>{regioes.somaSudeste}</h6>
-            <img id="country" src={Country}></img> <h6>{regioes.lengthSudeste}</h6>
+            <img id="pop" src={Population}></img> <h6>{regioes?.somaSudeste}</h6>
+            <img id="country" src={Country}></img> <h6>{regioes?.lengthSudeste}</h6>
           </div>
         </div>
 
@@ -67,8 +67,8 @@ function App() {
           <div className="card-body">
             <div className="card-title">Sul</div>
             <hr className="card-divisor"></hr>
-            <img id="pop" src={Population}></img> <h6>{regioes.somaSul}</h6>
-            <img id="country" src={Country}></img> <h6>{regioes.lengthSul}</h6>
+            <img id="pop" src={Population}></img> <h6>{regioes?.somaSul}</h6>
+            <img id="country" src={Country}></img> <h6>{regioes?.lengthSul}</h6>
           </div>
         </div>
 
