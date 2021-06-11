@@ -10,5 +10,5 @@
 #Rodando a aplicação:
 
 - front-end (pasta web): npm start
-- back-end (pasta server): npm node server.js
+- back-end (pasta server): node server.js
 
