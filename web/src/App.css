@@ -1,0 +1,92 @@
+html, body{
+  background-color: #0F112A;
+  color: #F8F2FE;
+  font-family: Montserrat;
+  padding-top: 0.4em;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h6{
+  font-family: Montserrat;
+  display: block;
+  text-align: center;
+  font-size: 0.3em;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.App {
+  text-align: center;
+}
+
+.basic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: montserrat;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.card {
+  justify-content: center;
+  display: flex;
+  width: 7rem;
+  height: 13rem;
+  margin-right: 1rem;
+  margin-top: 1.2rem;
+  background: #1B1F2A;
+  border-radius: 0.5rem;
+  align-items: center;
+  box-shadow: 0px 1px 5px #E8B3F7;
+}
+
+.card-body {
+  padding: 0.5rem 0.5rem 0.5rem 0.2rem;
+  text-align: left;
+  justify-content: center;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Sacramento;
+  text-align: center;
+  font-size: 0.6em;
+  color: #E8B3F7;
+  font-weight: normal;
+}
+
+.card-divisor {
+  align-items: center;
+  justify-content: center;
+  width: 12vw;
+  height: 1px;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  border: none;
+  background-color: #f9f9f9;
+}
+
+#pop{
+  width: 9vw;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+}
+
+#country{
+  width: 9vw;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+}
